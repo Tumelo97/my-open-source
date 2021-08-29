@@ -1,15 +1,13 @@
 import { NgModule,ModuleWithProviders } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { ReactiveFormsModule } from '@angular/forms';
-import { HomeComponent } from '../home/home.component';
+import { ServicesComponent } from '../services/services.component';
 
-const ConsultantRouting: ModuleWithProviders<HomeModule> = RouterModule.forChild([
+const ServicesRouting: ModuleWithProviders<ServicesModule> = RouterModule.forChild([
   {
-    path:'home',
+    path:'services',
     pathMatch: 'full',
-    component: HomeComponent,
+    component: ServicesComponent,
     canActivate: []
   },
  
@@ -18,17 +16,16 @@ const ConsultantRouting: ModuleWithProviders<HomeModule> = RouterModule.forChild
 
 @NgModule({
   declarations: [
-   
-    HomeComponent,
+    ServicesComponent,
   ], 
   imports: [
     BrowserModule,
     
   ],
   exports:[
-    HomeComponent
+    ServicesComponent,
   ],
   providers: [],
   bootstrap: []
 })
-export class HomeModule { }
+export class ServicesModule { }
