@@ -7,7 +7,7 @@ import { HomeComponent } from '../home/home.component';
 
 const ConsultantRouting: ModuleWithProviders<HomeModule> = RouterModule.forChild([
   {
-    path:'Home',
+    path:'home',
     pathMatch: 'full',
     component: HomeComponent,
     canActivate: []
