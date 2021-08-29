@@ -1,13 +1,41 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>MyOpenSource</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Open Source Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+       
+    </head>
+    <body>
+      
   <app-root></app-root>
-</body>
+  <section class="footer text-center">
+    
+    <div>
+        <form>
+            <p>&copy;<small id="year"></small>|Open Source Funeral Home Administration</p>
+            
+                <script>
+                  {
+                    document.getElementById("year").innerHTML=(new Date).getFullYear();
+                  }
+                  </script>
+        </form>
+    </div>
+    <div class="link">
+        <form>
+            <small>Developed and Designed by: <a href="https://www.google.com">TUMI&NKO IT Company</a></small>
+        </form>
+            </div>
+
+      </section>
+
+      
+  </body>
+
+
 </html>
