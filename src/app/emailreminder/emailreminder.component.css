@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding:0px;
+  font-family:'Arial Narrow';
+}
+
+
+.input[type=text] {
+
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+   
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 100px;
+    
+  }
+  .input-text{
+    margin: 40px;
+    width: 30%;
+  }
+  .btn{
+    margin: 10px;
+    padding: 1px;
+  }
+ 

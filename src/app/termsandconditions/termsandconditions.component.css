@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding:0px;
+    font-family: 'Arial Narrow';
+  }
+  .sub-text {
+
+    text-align:center;
+    color:black;
+    line-height: normal; 
+    padding: 20px;
+    
+    }

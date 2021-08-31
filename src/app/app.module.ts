@@ -8,9 +8,11 @@ import { ServicesModule } from './services/services.module';
 import { HomeModule } from './home/home.module';
 import { ContactsComponent } from './contacts/contacts.component';
 import { LoginComponent } from './login/login.component';
-import { CologinComponent } from './signup_consultant.html/cologin.component';
 import { TermsandconditionsComponent } from './termsandconditions/termsandconditions.component';
 import { RouterModule } from '@angular/router';
+import { PourlorhomeComponent } from './pourlorhome/pourlorhome.component';
+import { SignupComponent } from './signup/signup.component';
+import { EmailreminderComponent } from './emailreminder/emailreminder.component';
 
 const rootRouting: ModuleWithProviders<AppModule> = RouterModule.forRoot([
   { path: '',
@@ -24,8 +26,10 @@ const rootRouting: ModuleWithProviders<AppModule> = RouterModule.forRoot([
     AppComponent,
     ContactsComponent,
     LoginComponent,
-    CologinComponent,
-    TermsandconditionsComponent
+    TermsandconditionsComponent,
+    PourlorhomeComponent,
+    SignupComponent,
+    EmailreminderComponent
   ],
   imports: [
     BrowserModule,
