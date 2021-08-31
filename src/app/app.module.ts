@@ -13,6 +13,7 @@ import { RouterModule } from '@angular/router';
 import { PourlorhomeComponent } from './pourlorhome/pourlorhome.component';
 import { SignupComponent } from './signup/signup.component';
 import { EmailreminderComponent } from './emailreminder/emailreminder.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const rootRouting: ModuleWithProviders<AppModule> = RouterModule.forRoot([
   { path: '',
@@ -29,7 +30,8 @@ const rootRouting: ModuleWithProviders<AppModule> = RouterModule.forRoot([
     TermsandconditionsComponent,
     PourlorhomeComponent,
     SignupComponent,
-    EmailreminderComponent
+    EmailreminderComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
