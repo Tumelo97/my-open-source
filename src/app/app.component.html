@@ -1,31 +1,49 @@
 <section class="header">
-    <div class="containers">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
-              <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto text-right">
+  <div class="containers">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="../assets/images/Funeral Home Logo.png" style="background-color: white; "></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto text-right">
+              <li class="nav-item">
+                <a class="nav-link" href="./home.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/services.html" >SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html" >CONTACTS</a>
+              </li>
+            
                 <li class="nav-item">
-                  <a class="nav-link" routerLink="/home" routerLinkActive="active">HOME</a>
+                  <button type="button" class="btn btn-dark text-right" onclick="location.href='signup.html'">LOGIN</button>  
+
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" routerLink="/services" routerLinkActive="active" >SERVICES</a>
+                  <button type="button" class="btn btn-dark text-right" onclick="location.href='signup.html'">SIGNUP</button>  
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/contact.html" >CONTACTS</a>
-                </li>
-                <li class="nav-item">
-                <button type="button" class="btn btn-dark text-right" onclick="location.href='login.html'">LOGIN</button>
-                </li>
-                <li class="nav-item">
-                <button type="button" class="btn btn-dark text-right" onclick="location.href='signup.html'">SIGNUP</button>  
-                </li>
-              </ul>
-            </div>
-          </nav>
-          
+                
+            </ul>
+          </div>
+        </nav>
+        
+  </div>
+</section>
+  <app-home></app-home>
+  <section class="footer text-center">
+    <div>
+        <form>
+            <p>&copy;<small id="year">{{getYear()}}</small> - Open Source Funeral Home Administration</p>  
+        </form>
     </div>
-  </section>
-  <app-services></app-services>
+    <div class="link">
+        <form>
+            <small>Developed and Designed by: <a href="https://www.google.com">TUMI&NKO IT Company</a></small>
+        </form>
+    </div>
+       
+    
+    
+</section>

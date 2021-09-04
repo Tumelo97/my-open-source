@@ -1,12 +1,17 @@
+.element{
+  height: 78vh; /* Would mean 50% of Viewport height */
+  width:  80vw; /* Would mean 75% of Viewport width*/
+}
+
 * {
-    margin: 0;
-    padding:0px;
-    font-family: 'Arial Narrow';
-  }
-  
+  margin: 0;
+  padding:0px;
+  font-family: 'Arial Narrow';
+}
+
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial Narrow';;
     line-height: 100%;
   }
   

@@ -1,9 +1,12 @@
 * {
-    margin: 0;
-    padding:0;
-    font-family:'Arial Narrow';
+  margin: 0;
+  padding:0;
+  font-family:'Arial Narrow';
+  
 }
-/*---------Header------------*/
+
+
+
   .header {
     background: red;
     
@@ -26,7 +29,13 @@
     font-family: serif;
   }
   .navbar-brand img {
-    width: 10%;
+    
+   
+	  top:0; 
+	  left:0;
+     width: 130px;
+     opacity: 5;
+    
     
   }
   .fa-bars {
@@ -64,7 +73,8 @@
   }
   .link{
     font-size: 14px;
-    padding:2px;
+    margin: 10px;
+    padding: 1px;
     color:#fff;
     text-align: right;
 

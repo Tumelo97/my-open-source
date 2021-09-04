@@ -3,7 +3,10 @@
   padding:0px;
   font-family:'Arial Narrow';
 }
-
+.element{
+  height: 78vh; /* Would mean 50% of Viewport height */
+  width:  80vw; /* Would mean 75% of Viewport width*/
+}
 
 .input[type=text] {
 

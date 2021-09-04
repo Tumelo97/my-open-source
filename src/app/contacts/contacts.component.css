@@ -1,9 +1,10 @@
-
-  
-
+.element{
+  height: 80vh; /* Would mean 50% of Viewport height */
+  width:  100vw; /* Would mean 75% of Viewport width*/
+}
 .features{
 
-  margin:40px;
+  margin:30px;
 
 }
 
@@ -13,8 +14,7 @@
   line-height: 1px !important;
 }
 
-
-  .container{
+.container{
     width: 100%;
     background: #fff;
     border-radius: 14px;
@@ -28,7 +28,7 @@
   .container .content{
     display: flex;
     align-items:left;
-    margin: 50px;
+    margin: 40px;
     
   }
   .container .content .left-side{
